@@ -3,6 +3,8 @@ import * as ko from 'knockout';
 import {IGreetingsService} from '../services/IGreetingsService';
 import {GreetingsService} from '../services/GreetingsService';
 
+import {GoodbyeViewModel} from './Goodbye';
+
 class HelloViewModel {
     language: KnockoutObservable<string>;
     framework: KnockoutObservable<string>;
@@ -27,4 +29,6 @@ class HelloViewModel {
     }
 }
 
-ko.applyBindings(new HelloViewModel('TypeScript', 'Knockout', new GreetingsService()));
+// ko.applyBindings(new HelloViewModel('TypeScript', 'Knockout', new GreetingsService()));
+ko.applyBindings(new GoodbyeViewModel('Bob', 'Smith'));
+

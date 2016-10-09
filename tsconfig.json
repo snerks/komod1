@@ -7,9 +7,13 @@
         "target": "es5",
         "strictNullChecks": true
     },
-    "files": [
-        "./src/components/hello.ts",
-        "./src/services/IGreetingsService.ts",
-        "./src/services/GreetingsService.ts"
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "externals",
+        "**/*.spec.ts"
     ]
 }
