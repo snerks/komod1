@@ -3,7 +3,6 @@ import * as ko from 'knockout';
 import {IGreetingsService} from '../services/IGreetingsService';
 import {GreetingsService} from '../services/GreetingsService';
 
-
 class HelloViewModel {
     language: KnockoutObservable<string>;
     framework: KnockoutObservable<string>;
