@@ -8,6 +8,8 @@
         "strictNullChecks": true
     },
     "files": [
-        "./src/components/hello.ts"
+        "./src/components/hello.ts",
+        "./src/services/IGreetingsService.ts",
+        "./src/services/GreetingsService.ts"
     ]
 }

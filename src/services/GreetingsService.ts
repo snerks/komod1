@@ -1,7 +1,6 @@
 import {IGreetingsService} from './IGreetingsService';
 
-export class GreetingsService implements IGreetingsService
-{
+export class GreetingsService implements IGreetingsService {
     private counter: number = 0;
 
     getGreeting(): string {
