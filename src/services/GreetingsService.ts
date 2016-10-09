@@ -7,6 +7,6 @@ export class GreetingsService implements IGreetingsService
     getGreeting(): string {
         this.counter++;
 
-        return `Hello [${this.counter}] !!!!!`;
+        return `Hello [${this.counter}] !`;
     }
 }
